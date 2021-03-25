@@ -24,7 +24,7 @@ install_requirements = [
 if sys.version_info[:2] == (3, 4):
     install_requirements.append('PyYAML>=3.10,<5.3')
 else:
-    install_requirements.append('PyYAML>=3.10,<5.4')
+    install_requirements.append('PyYAML>=3.10,<6.0')
 
 test_requirements = [
     "pytest>=3.2",
